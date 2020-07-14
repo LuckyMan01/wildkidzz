@@ -1,0 +1,203 @@
+@media (max-width:1530px){
+    .header__inner{
+        padding: 12px 5px;
+    }
+    .menu__list li + li{
+        margin-left: 20px;
+    }
+    .header__contact,
+    .header__lang{
+        margin-right: 10px;
+    }
+    .item__img-one{
+        margin-right: 10px;
+        transform: translate(0px);
+        margin-left: 40px;
+    }
+    .item__img-one::before{
+        top: 130px;
+        left: -22px;
+    }
+}
+@media (max-width:1400px){
+    .content__item{
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+    .content__item-img,
+    .item__img-two{
+        display: flex;
+        justify-content: center;
+        transform: translate(0px);
+    }
+    .item__img-two{
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .item__img-one::before{
+        left: 15%;
+    }
+    .content__item-info{
+        padding: 0 40px;
+        margin: 0 20px;
+    }
+    .item__img-two::before,
+    .item__img-three::before{
+        display: none;
+    }
+}
+@media (max-width:1280px){
+    .content__item{
+        margin-bottom: 60px;
+    }
+    .box__menu{
+        margin-left: auto;
+        margin-right: 20px;
+    }
+    .box__menu div{
+        height: 3px;
+        width: 30px;
+        margin-bottom: 5px;
+        background-color: #000;
+    }
+    .baner__content{
+        margin: 0 30px;
+    }
+    .menu__list{
+        left: 0;
+        top: 116px;
+        z-index: 6;
+        padding: 20px;
+        width: 100%;
+        background-color: #fff;
+        position: absolute;
+        display: none;
+    }
+    .menu__list li{
+        margin: 0;
+        padding: 10px;
+        text-align: center;
+        display: block;
+    }
+    .menu__list li a:hover{
+        color: yellowgreen;
+    }
+    .menu__list li + li{
+        margin-left: 0;
+        border-top: 1px solid#666;
+    }
+    .menu__user{
+        display: block;
+    }
+    .menu__user-acaunt{
+       margin-right: 20px; 
+    }
+    .menu__user-search{
+        margin-right: 30px;
+        color: #666;
+    }
+}
+@media (max-width:1180px){
+    .item__img-one::before{
+        display: none;
+    }
+    .item__img-two{
+        display: flex;
+        width: 100%;
+    }
+}
+@media (max-width:880px){
+    .item__img-one img{
+        display: flex;
+        margin: 0;
+        width: 100%;
+    }
+    .title{
+        font-size: 28px;
+        line-height: 32px;
+    }
+    .content__item-list li{
+        font-size: 14px;
+    }
+    .content__item-list li + li{
+        margin-top: 10px;
+    }
+    .item__img-three img{
+        display: flex;
+        width: 100%;
+    }
+    .text{
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .call__title{
+        font-size: 32px;
+    }
+    .testimonials__inner{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .item__img-one{
+        margin: 0;
+    }
+    .footer__inner{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .footer__item:last-child,
+    .footer__item:first-child{
+        border: none;
+    }
+    .call__inner input{
+       display: flex;
+       margin-bottom: 20px;
+       width: 300px;
+    }
+    .call__inner form{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .content__item-info{
+        padding: 0;
+        margin: 0 10px;
+    }
+}
+@media (max-width:680px){
+    .header__contact{
+        display: none;
+    }
+    .content__item-title::before{
+        display: none;
+    }
+    .header__basket{
+        display: none;
+    }
+    .baner__content h1{
+        font-size: 42px;
+        line-height: 48px;
+    }
+    .baner__content p{
+        font-size: 22px;
+    }
+    .footer__bottom-inner{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+@media (max-width:460px){
+    .header__lang{
+        display: none;
+    }
+}
+
+@media (min-width:1280px){
+    .menu__user{
+        display: none;
+    }
+    .menu ul{
+        display: block !important;
+    }
+}
